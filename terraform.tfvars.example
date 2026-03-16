@@ -1,0 +1,13 @@
+aws_region               = "us-east-1"
+project_name             = "myapp"
+environment              = "dev"
+vpc_cidr                 = "10.0.0.0/16"
+az_count                 = 2
+postgres_version         = "14.12"
+instance_class           = "db.t3.micro"
+allocated_storage        = 20
+max_allocated_storage    = 100
+db_name                  = "myappdb"
+master_username          = "dbadmin"
+backup_retention_period  = 7
+performance_insights_enabled = false
